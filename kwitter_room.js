@@ -42,6 +42,7 @@ function send() {
             message: msg,
             like: 0
       });
+      document.getElementById("tit").innerHTML = user_name;
 
       document.getElementById("msg").value = "";
 }
